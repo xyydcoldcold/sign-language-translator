@@ -35,5 +35,66 @@ It detects basic hand gestures via webcam, converts them into text, and reads th
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/xyydcoldcold/sign-language-translator.git
+git clone https://github.com/your-username/sign-language-translator.git
 cd sign-language-translator
+```
+
+### 2. Set up Conda environment
+
+Option 1: Use `requirements.txt`
+
+```bash
+conda create -n gesture-env python=3.9
+conda activate gesture-env
+pip install -r requirements.txt
+```
+
+Option 2: Manual install
+
+```bash
+conda create -n gesture-env python=3.9
+conda activate gesture-env
+pip install mediapipe opencv-python pyttsx3
+```
+
+### 3. Run the app
+
+```bash
+python main.py
+```
+
+> Press `Q` to quit the webcam window
+
+---
+
+## 📁 Project Structure
+
+```
+.
+├── main.py             # Main application file
+├── README.md
+└── .gitignore
+```
+
+---
+
+## 📌 Future Ideas
+
+- Add support for more gestures (✌️ OK 🖐️ etc.)
+- Dynamic sentence construction
+- Export gesture logs
+- GUI using Tkinter or PyQt
+- Deploy as standalone app (desktop or web)
+
+---
+
+## 🙌 Credits
+
+Created with ❤️ using Python + OpenCV + MediaPipe  
+Inspired by accessibility and real-time interaction
+
+---
+
+## 📄 License
+
+MIT License (add if needed)
