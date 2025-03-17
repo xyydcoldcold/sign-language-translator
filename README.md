@@ -25,7 +25,7 @@ It detects basic hand gestures via webcam, converts them into text, and reads th
 
 ## 🖥️ Demo
 
-<img width="778" alt="image" src="https://github.com/user-attachments/assets/c3177858-f405-452b-9dff-c3ed1132530c" />
+<img width="200" alt="image" src="https://github.com/user-attachments/assets/c3177858-f405-452b-9dff-c3ed1132530c" />
 
 
 ---
