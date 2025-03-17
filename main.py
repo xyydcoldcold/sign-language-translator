@@ -9,13 +9,14 @@ def speak(text):
     engine.say(text)
     engine.runAndWait()
 
+
 # 初始化 MediaPipe 手部模型
 mp_hands = mp.solutions.hands
 hands = mp_hands.Hands(max_num_hands=1)
 mp_draw = mp.solutions.drawing_utils
 
 # 打开摄像头
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(1)
 detected = False  # 防止语音重复播放
 
 while True:
