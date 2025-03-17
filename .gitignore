@@ -19,5 +19,5 @@ gesture-env/
 # Jupyter checkpoints
 .ipynb_checkpoints/
 
-# PyCharm history (optional)
+# PyCharm history
 .idea/
