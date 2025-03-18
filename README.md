@@ -1,4 +1,4 @@
-# 🤟 Sign Language Translator (MVP)
+# Sign Language Translator (MVP)
 
 A simple real-time sign language recognition tool using **MediaPipe**, **OpenCV**, and **pyttsx3**.  
 It detects basic hand gestures via webcam, converts them into text, and reads them aloud for better accessibility.
